@@ -45,15 +45,6 @@
 	color:hsl(233, 8%, 62%);
 	padding-top: 1.1rem;
 }
-.attribution {
-	padding-top: 2rem;
-	font-size: 14px;
-  	text-align: center;
-}
-.attribution a {
- 	color: hsl(228, 45%, 44%);
-}
-
 
                         /* STYLING HEADER PART */
 
@@ -135,4 +126,109 @@ header{
 	float: right;
 	position: relative;
 	top: -87px;
+}
+
+
+.About-Us{
+  padding-top: 6.5rem;
+  padding-left: 10rem;
+  background-color: hsl(220, 16%, 96%);
+}
+
+.About-div{
+  padding-left: 1rem;
+}
+
+.About-h2{
+  color: hsl(233, 26%,34%);
+}
+
+.About-para{
+  width: 48%;
+  color:hsl(233, 8%, 62%);
+}
+
+.About-row{
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.About-img{
+	width: 26%;
+	margin-bottom: 2.4rem;
+}
+.col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 22%;
+    max-width: 30.666667%;
+}
+
+.About-row-h3{
+  font-size: 22px;
+  margin-bottom: 1.3rem;
+  color:hsl(233, 8%, 62%);
+}
+
+
+/* EDITING ARTICLES PART */
+
+.Blog{
+  padding-top: 6rem;
+  padding-bottom: 4.5rem;
+  background-color: hsl(0,0%, 98%);
+}
+
+.Blog-h2{
+  padding-bottom: 2.5rem;
+  margin-left: 20px;
+  color:hsl(233, 26% 34%);
+}
+
+.Blog-div{
+	margin: 0 auto;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 25%;
+    max-width: 40.666667%;
+}
+
+.Blog-row{
+  margin: 0 auto;
+}
+
+.Blog-text{
+  padding: 28px;
+  background-color: white;
+}
+
+.Blog-img-1{
+	width: 100%;
+	border-radius: 4px;
+	height: 44%;
+}
+.Blog-img{
+	width: 100%;
+	border-radius: 4px;
+	height: 44%;
+}
+
+
+.Blog-names{
+  color:hsl(233, 8%, 62%)
+  padding-bottom:10px;
+}
+
+.Blog-h3{
+  padding-top: 10px;
+  font-size: 16px;
+  color:hsl(233, 26%,34%);
+}
+
+.Blog-h3:hover{
+	color: hsl(136, 65%, 51%);
+	cursor: pointer;
+}
+.Blog-para{
+	font-size: 12px;
+	color:hsl(233, 8%, 62%);
 }
